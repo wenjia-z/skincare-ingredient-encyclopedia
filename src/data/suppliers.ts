@@ -16,4 +16,10 @@ export const suppliers: Supplier[] = [
   { name: 'Clariant', country: 'Switzerland', url: 'https://www.clariant.com' },
   { name: 'Gattefossé', country: 'France', url: 'https://www.gattefosse.com' },
   { name: 'Sino Lion', country: 'China', url: 'https://www.sinolion.com' },
+  { name: 'Hallstar', country: 'USA', url: 'https://www.hallstarbeauty.com' },
+  { name: 'CP Kelco', country: 'USA', url: 'https://www.cpkelco.com' },
 ]
+
+export const suppliersByName: Record<string, Supplier> = Object.fromEntries(
+  suppliers.map((s) => [s.name, s]),
+)

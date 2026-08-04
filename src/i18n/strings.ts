@@ -24,6 +24,7 @@ export const strings = {
   colCategory: { zh: '类别', en: 'Category' },
 
   sectionChemicalStructure: { zh: '化学结构简述', en: 'Chemical Structure' },
+  sectionStructureFunction: { zh: '结构-功能关联分析', en: 'Structure–Function Relationship' },
   sectionPerformance: { zh: '性能特点', en: 'Performance Characteristics' },
   sectionStrengthsWeaknesses: { zh: '结构化学角度的优缺点分析', en: 'Structural Strengths & Weaknesses' },
   sectionStrengths: { zh: '优势', en: 'Strengths' },

@@ -11,6 +11,7 @@ function makeIngredient(overrides: Partial<Ingredient>): Ingredient {
     nameZh: '聚山梨醇酯60',
     tradeNames: [{ name: 'Crillet 3', supplier: 'Croda' }],
     chemicalStructureSummary: { zh: '测试', en: 'test' },
+    structureFunctionAnalysis: [{ aspect: { zh: '测试', en: 'test' }, explanation: { zh: '测试', en: 'test' } }],
     performance: {
       skinFeel: { zh: '测试', en: 'test' },
       pillingTendency: 'low',

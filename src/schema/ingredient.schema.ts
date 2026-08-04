@@ -40,6 +40,17 @@ export const SuitableSystemSchema = z.object({
   notes: LocalizedTextSchema.optional(),
 })
 
+/**
+ * Explicitly connects a molecular-structure feature to the resulting
+ * functional property (e.g. why an ethoxylated head group gives high-HLB
+ * emulsification ability). One point per major property, not a single blob,
+ * so it can render as a scannable structure -> function map.
+ */
+export const StructureFunctionPointSchema = z.object({
+  aspect: LocalizedTextSchema,
+  explanation: LocalizedTextSchema,
+})
+
 export const DataCompletenessSchema = z.enum(['verified', 'partial', 'unverified-flagged'])
 
 export const IngredientCategorySchema = z.enum(['emulsifier', 'polymer'])
@@ -56,6 +67,7 @@ export const IngredientSchema = z.object({
 
   chemicalClass: LocalizedTextSchema.optional(),
   chemicalStructureSummary: LocalizedTextSchema,
+  structureFunctionAnalysis: z.array(StructureFunctionPointSchema).min(1),
 
   hlb: z
     .union([z.number(), z.object({ min: z.number(), max: z.number() })])

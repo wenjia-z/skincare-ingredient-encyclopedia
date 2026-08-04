@@ -14,7 +14,7 @@ export function SearchBar({ value, onChange }: SearchBarProps) {
       onChange={(e) => onChange(e.target.value)}
       placeholder={t('searchPlaceholder')}
       aria-label={t('searchPlaceholder')}
-      className="w-full rounded-lg border border-gray-300 bg-white px-4 py-2.5 text-sm text-gray-900 placeholder:text-gray-400 focus:border-accent-500 focus:outline-none focus:ring-2 focus:ring-accent-400/40 dark:border-white/15 dark:bg-navy-800 dark:text-white dark:placeholder:text-gray-500"
+      className="w-full rounded-lg border border-border bg-surface px-4 py-2.5 text-sm text-ink-900 placeholder:text-ink-500 shadow-sm focus:border-accent-500 focus:outline-none focus:ring-2 focus:ring-accent-400/30"
     />
   )
 }

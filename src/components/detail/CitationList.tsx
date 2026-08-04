@@ -7,21 +7,26 @@ export function CitationList({ citations }: { citations: Citation[] }) {
 
   return (
     <section>
-      <h2 className="mb-3 text-lg font-semibold text-navy-950 dark:text-white">{t('sectionCitations')}</h2>
-      <ol className="space-y-2 text-sm text-gray-600 dark:text-gray-300">
+      <h2 className="mb-3 text-lg font-semibold text-ink-950">{t('sectionCitations')}</h2>
+      <ol className="space-y-3 text-sm text-ink-700">
         {citations.map((c) => (
-          <li key={c.id} className="border-l-2 border-gray-200 pl-3 dark:border-white/10">
-            <span className="font-medium text-navy-950 dark:text-white">{c.supplier}</span>
+          <li key={c.id} className="rounded-lg border border-border bg-surface p-3">
+            <span className="font-medium text-ink-950">{c.supplier}</span>
             {' — '}
             {c.url ? (
-              <a href={c.url} target="_blank" rel="noreferrer" className="underline hover:text-accent-500">
-                {c.documentTitle}
+              <a
+                href={c.url}
+                target="_blank"
+                rel="noreferrer"
+                className="text-accent-500 underline decoration-dotted hover:opacity-75"
+              >
+                {c.documentTitle} ↗
               </a>
             ) : (
               c.documentTitle
             )}
-            <span className="ml-2 text-gray-400 dark:text-gray-500">({c.accessedDate})</span>
-            {c.note && <p className="mt-0.5 text-gray-500 dark:text-gray-400">{c.note}</p>}
+            <span className="ml-2 text-ink-500">({c.accessedDate})</span>
+            {c.note && <p className="mt-1 text-ink-500">{c.note}</p>}
           </li>
         ))}
       </ol>

@@ -17,6 +17,29 @@ export default defineIngredient({
     zh: '化学上为聚氧乙烯(20)失水山梨醇单硬脂酸酯：以失水山梨醇（山梨醇脱水环化产物）为骨架，一端酯化连接硬脂酸（亲油尾链），另一端接枝约20个环氧乙烷单元形成聚氧乙烯链（强亲水头基）。相较于不带PEG链的Span型失水山梨醇酯（如Sorbitan Stearate），聚氧乙烯链大幅提升了亲水性，使其HLB值达到约14.9，属于高HLB、水包油(O/W)型乳化剂，通常需与低HLB的油溶性乳化剂（如鲸蜡醇、失水山梨醇硬脂酸酯）复配构建完整乳化体系。',
     en: 'Chemically polyoxyethylene(20) sorbitan monostearate: a sorbitan (dehydrated sorbitol) backbone esterified at one position with stearic acid (the lipophilic tail), with roughly 20 ethylene oxide units grafted on to form a polyoxyethylene chain (the strongly hydrophilic head). Compared with the non-ethoxylated Span-type sorbitan esters (e.g. Sorbitan Stearate), the PEG chain substantially raises hydrophilicity, giving an HLB of ~14.9 — a high-HLB, O/W-type emulsifier that typically needs to be paired with a low-HLB, oil-soluble co-emulsifier (e.g. cetyl alcohol, sorbitan stearate) to build a complete emulsification system.',
   },
+  structureFunctionAnalysis: [
+    {
+      aspect: { zh: '高HLB乳化能力从何而来', en: 'Where the high-HLB emulsification ability comes from' },
+      explanation: {
+        zh: '约20个环氧乙烷单元串联形成的聚氧乙烯链具有极高的柔性与水合能力（每个醚氧原子都可与水分子形成氢键），使亲水头基的"体积占比"远大于硬脂酸尾链，HLB因此被推高至约14.9；根据Bancroft规则，亲水头基占优的表面活性剂更倾向于稳定水包油(O/W)体系，这正是其作为高HLB乳化剂的结构根源。',
+        en: "The ~20-unit polyoxyethylene chain is highly flexible and strongly hydrated (each ether oxygen can hydrogen-bond with water), making the hydrophilic head's effective volume far larger than the stearic-acid tail — pushing HLB up to ~14.9. Per Bancroft's rule, a surfactant with a dominant hydrophilic head favors stabilizing an O/W system, which is the structural root of its role as a high-HLB emulsifier.",
+      },
+    },
+    {
+      aspect: { zh: '悬浮/稳定能力偏弱从何而来', en: 'Where the weak suspension/stabilization ability comes from' },
+      explanation: {
+        zh: '聚氧乙烯链在水中高度水合、柔性伸展，倾向于形成流动性较高的胶束而非刚性液晶网络；缺少能形成三维空间"支架"的结构元件（如脂肪醇共结晶层），因此单独使用时乳液缺乏屈服应力支撑，悬浮/稳定能力弱，需依赖额外增稠剂补足。',
+        en: 'The polyoxyethylene chain, being highly hydrated and flexible in water, tends to form freely mobile micelles rather than a rigid liquid-crystal network; lacking a structural element that builds a 3D scaffold (such as a co-crystallized fatty-alcohol layer), the emulsion has no yield-stress support on its own — hence weak suspension/stabilization, needing a separate thickener.',
+      },
+    },
+    {
+      aspect: { zh: '水感/皂感肤感从何而来', en: 'Where the watery / soapy skin feel comes from' },
+      explanation: {
+        zh: '柔性聚氧乙烯链在皮肤表面铺展后不易形成厚实残留膜（不同于蜡状液晶型乳化剂），因此肤感偏水感、清爽；但该链段在高浓度下的表面活性/去污性质也是部分配方反馈"皂感"的结构原因，这也是为何该原料常与低HLB油溶性乳化剂复配以调和肤感。',
+        en: "The flexible polyoxyethylene chain doesn't readily leave a thick residual film on skin (unlike waxy liquid-crystal emulsifiers), giving a watery, light feel; but that same chain's surface-active/detersive character at higher concentration is also the structural reason behind the occasional \"soapy\" feedback — why it's usually paired with a low-HLB, oil-soluble co-emulsifier to balance the sensory profile.",
+      },
+    },
+  ],
   hlb: 14.9,
   appearance: {
     zh: '常温下为黄棕色粘稠液体，气味微弱或无',

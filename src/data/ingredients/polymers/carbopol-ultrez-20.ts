@@ -14,6 +14,29 @@ export default defineIngredient({
     zh: '主链为交联聚丙烯酸，分子链上带有大量羧基（-COOH）；与传统卡波姆（Carbomer）不同的是，链上还接枝了C10-30长链烷基丙烯酸酯，赋予其疏水缔合特性。中性/弱碱性条件下（pH约6.5-7.5），羧基被中和为羧酸根（-COO⁻），链间静电排斥使分子链充分伸展、大量束缚水分子，形成三维水凝胶网络；疏水长链之间的缔合进一步增强了网络强度与耐电解质/耐表面活性剂能力。',
     en: 'A crosslinked polyacrylic acid backbone bearing many carboxyl (-COOH) groups; unlike plain Carbomer, the chain also carries grafted C10-30 long-chain alkyl acrylate segments that give it hydrophobic-association behavior. Under neutral-to-weakly-alkaline conditions (pH ~6.5-7.5), the carboxyls are neutralized to carboxylate (-COO⁻), and electrostatic repulsion extends the chains and binds large amounts of water into a 3D hydrogel network; association between the hydrophobic side chains further reinforces the network and improves electrolyte/surfactant tolerance versus plain Carbomer.',
   },
+  structureFunctionAnalysis: [
+    {
+      aspect: { zh: '增稠/凝胶能力从何而来', en: 'Where the thickening/gelling ability comes from' },
+      explanation: {
+        zh: '中和前，聚丙烯酸链上大量羧基呈电中性、卷曲紧缩；加入碱（TEA/NaOH）中和后羧基转变为带负电的羧酸根，链间同性电荷相互排斥，驱使分子链从紧缩线团充分伸展为伸长构象，体积可膨胀数百倍，同时大量水分子被静电束缚在链间——这一"链伸展+束水"过程正是粘度和凝胶强度的直接来源。',
+        en: 'Before neutralization, the many carboxyl groups on the polyacrylic chain are electrically neutral and the chain stays tightly coiled; adding alkali (TEA/NaOH) converts the carboxyls to negatively charged carboxylate, and like-charge repulsion between segments drives the coiled chain to fully extend — swelling hundreds of times in volume — while large amounts of water are electrostatically bound between chains. This "chain extension + water binding" process is the direct source of viscosity and gel strength.',
+      },
+    },
+    {
+      aspect: { zh: '耐电解质能力（相较传统卡波姆）从何而来', en: 'Where the (improved) electrolyte tolerance comes from' },
+      explanation: {
+        zh: '传统卡波姆增稠完全依赖羧酸根之间的静电排斥，高盐环境下体系中游离离子会屏蔽这些电荷（德拜屏蔽效应），排斥力骤减、链重新蜷缩，粘度大幅下降；Ultrez系列额外接枝的C10-30长链烷基之间可发生疏水缔合，形成不依赖静电排斥的"物理交联点"，即使电荷被盐屏蔽，疏水缔合网络仍能部分维持三维结构，因此耐电解质/耐表面活性剂能力显著优于普通卡波姆。',
+        en: 'Plain Carbomer thickening relies entirely on carboxylate-carboxylate electrostatic repulsion; in a high-salt environment, free ions screen these charges (Debye screening), repulsion collapses, and the chains re-coil, sharply dropping viscosity. The Ultrez series\' additional grafted C10-30 alkyl chains can undergo hydrophobic association, forming "physical crosslink points" that don\'t depend on electrostatic repulsion — even when charges are salt-screened, this associative network partially maintains the 3D structure, giving markedly better electrolyte/surfactant tolerance than plain Carbomer.',
+      },
+    },
+    {
+      aspect: { zh: '长流变/短流变肤感的可调性从何而来', en: 'Where the tunable long-/short-rheology skin feel comes from' },
+      explanation: {
+        zh: '流变类型主要由中和度与离子强度决定：中和度越高、离子强度越低，链伸展越充分，网络连续性越强，涂抹时呈现拉丝、有弹性的"长流变"；反之，较低中和度或较高离子强度下链伸展受限，网络更易在剪切下断裂重组，呈现清爽、水感的"短流变"——这解释了同一原料可通过配方参数覆盖两种截然不同肤感。',
+        en: "Rheology type is mainly set by neutralization degree and ionic strength: higher neutralization and lower ionic strength let chains extend more fully, giving a more continuous network and an elastic, stringy \"long rheology\" feel on application. Conversely, lower neutralization or higher ionic strength limits chain extension, and the network breaks and reforms more readily under shear, giving a light, watery \"short rheology\" feel — explaining how the same polymer can span two very different skin feels via formulation parameters.",
+      },
+    },
+  ],
   performance: {
     skinFeel: {
       zh: '可通过配方调节呈现"长流变"（丰盈弹性）或"短流变"（清爽水感）质地；自身作为凝胶呈清爽、不粘腻感',

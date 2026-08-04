@@ -10,7 +10,7 @@ export function AlphabetSidebar({ activeLetters, selectedLetter, onSelect }: Alp
   return (
     <nav
       aria-label="Alphabet index"
-      className="flex w-14 shrink-0 flex-col items-center gap-0.5 rounded-xl bg-navy-950 py-3 text-white"
+      className="flex w-14 shrink-0 flex-col items-center gap-0.5 rounded-xl border border-border bg-surface-alt py-3"
     >
       {LETTERS.map((letter) => {
         const isActive = activeLetters.has(letter)
@@ -24,10 +24,10 @@ export function AlphabetSidebar({ activeLetters, selectedLetter, onSelect }: Alp
             className={[
               'flex h-6 w-10 items-center justify-center rounded text-xs font-medium transition',
               isSelected
-                ? 'bg-accent-400 text-navy-950'
+                ? 'bg-accent-500 text-white'
                 : isActive
-                  ? 'text-white/80 hover:bg-white/10 hover:text-white'
-                  : 'cursor-default text-white/25',
+                  ? 'text-ink-700 hover:bg-white hover:text-ink-950'
+                  : 'cursor-default text-ink-500/40',
             ].join(' ')}
           >
             {letter}

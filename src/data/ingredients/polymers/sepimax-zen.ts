@@ -14,6 +14,29 @@ export default defineIngredient({
     zh: '与传统卡波姆同属交联聚丙烯酸类，但采用Seppic专利的差异化交联/锚定结构（供应商称为"chassis"骨架），并以预中和粉末形式提供——遇水即可直接成胶，无需额外中和步骤。这种锚定结构在高电解质环境下仍能维持三维网络的空间占位，不像传统卡波姆那样单纯依赖羧酸根之间的静电排斥（该排斥在高盐环境下会被电荷屏蔽而失效、粘度骤降），因此表现出对高浓度电解质（供应商数据：可耐受高达10%盐）远高于传统卡波姆的耐受性。',
     en: 'A crosslinked polyacrylate related to traditional Carbomer, but built on a differentiated, patented crosslinking/anchoring architecture (marketed by Seppic as a "chassis" backbone) and supplied pre-neutralized as a powder — it gels directly on contact with water, with no separate neutralization step. This anchored structure keeps the 3D network spatially occupied even under high electrolyte load, unlike plain Carbomer, whose thickening relies purely on carboxylate electrostatic repulsion — a mechanism that collapses (and causes sharp viscosity loss) once ionic strength screens the charges. This gives markedly higher electrolyte tolerance than plain Carbomer (supplier data: stable up to 10% salt).',
   },
+  structureFunctionAnalysis: [
+    {
+      aspect: { zh: '增稠能力从何而来', en: 'Where the thickening ability comes from' },
+      explanation: {
+        zh: '与传统卡波姆一样，交联聚丙烯酸主链上的羧酸根之间的静电排斥仍是其主要增稠机制之一——只是Sepimax ZEN以预中和粉末形式提供，链上羧基在生产阶段已被中和为羧酸根，遇水后无需额外加碱即可立即呈伸展构象、束缚水分子成胶，因此工艺上省去了中和步骤。',
+        en: "Like plain Carbomer, electrostatic repulsion between carboxylate groups on the crosslinked polyacrylic backbone remains one of the main thickening mechanisms — the difference is that Sepimax ZEN is supplied pre-neutralized as a powder, with the carboxyls already converted to carboxylate during manufacture. On contact with water it immediately adopts an extended conformation and binds water into a gel with no separate alkali addition, removing the neutralization step from the process.",
+      },
+    },
+    {
+      aspect: { zh: '强耐电解质能力从何而来', en: 'Where the strong electrolyte tolerance comes from' },
+      explanation: {
+        zh: '关键差异在于交联/锚定方式：供应商专利的"chassis"骨架在交联点之间引入了不依赖静电排斥的空间占位结构，即使体系中游离离子屏蔽了羧酸根之间的电荷排斥（传统卡波姆在此情形下会塌缩失粘），锚定骨架仍能撑起三维网络的基本空间构型，因此Sepimax ZEN能在高达10%盐浓度下维持粘度，耐电解质能力显著优于依赖纯静电排斥的传统卡波姆。',
+        en: "The key difference is in the crosslinking/anchoring architecture: the supplier's patented \"chassis\" backbone introduces spatial anchor points between crosslinks that don't rely on electrostatic repulsion. Even when free ions in the system screen the charge repulsion between carboxylates (which is exactly when plain Carbomer collapses and loses viscosity), the anchored backbone still holds up the network's basic 3D geometry — letting Sepimax ZEN maintain viscosity at up to 10% salt, well beyond a Carbomer relying on pure electrostatic repulsion.",
+      },
+    },
+    {
+      aspect: { zh: '透明凝胶与细腻泡沫质地从何而来', en: 'Where the clear gel and fine foam texture come from' },
+      explanation: {
+        zh: '预中和使体系中不存在未溶解的中和剂颗粒或局部过碱区域（传统卡波姆手动中和易出现的问题），网络交联更均匀，光散射更少，因此成胶透明度更高；均匀的网络结构在起泡体系中也更容易形成薄而稳定的液膜，带来供应商所述"更细腻柔软"的泡沫质地。',
+        en: 'Pre-neutralization means there are no undissolved neutralizer particles or locally over-alkaline zones (a common issue with manually neutralized Carbomer), so the network crosslinks more uniformly, scattering less light and giving higher gel clarity. That same uniform network structure also more readily forms thin, stable lamellae in foaming systems, contributing to the "finer, softer" foam texture the supplier describes.',
+      },
+    },
+  ],
   performance: {
     skinFeel: {
       zh: '供应商描述为"天鹅绒般丰润、优雅"的肤感，成胶透明清澈，起泡产品中可带来更细腻柔软的泡沫',

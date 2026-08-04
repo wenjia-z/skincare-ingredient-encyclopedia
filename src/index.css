@@ -3,37 +3,28 @@
 @theme {
   --font-sans: 'Inter', system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
 
-  --color-navy-950: #0f1420;
-  --color-navy-900: #161d2e;
-  --color-navy-800: #1f2840;
-  --color-navy-700: #2a3554;
+  /* Warm neutral scale — page chrome, panels, borders */
+  --color-ink-950: #211f1c;
+  --color-ink-900: #2c2a26;
+  --color-ink-700: #57534a;
+  --color-ink-500: #7c776b;
 
-  --color-accent-400: #f5d949;
-  --color-accent-500: #eac02f;
-
+  --color-bg: #f4f2ee;
   --color-surface: #ffffff;
-  --color-surface-muted: #f6f7fb;
-}
+  --color-surface-alt: #eeebe3;
+  --color-border: #e2ddd1;
 
-@media (prefers-color-scheme: dark) {
-  @theme {
-    --color-surface: #12141c;
-    --color-surface-muted: #1a1d29;
-  }
+  /* Muted antique-gold accent */
+  --color-accent-400: #b3924f;
+  --color-accent-500: #96772f;
 }
 
 html {
-  color-scheme: light dark;
+  color-scheme: light;
 }
 
 body {
   margin: 0;
-  background: var(--color-surface-muted);
-  color: #1a1c23;
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    color: #e5e7eb;
-  }
+  background: var(--color-bg);
+  color: var(--color-ink-900);
 }

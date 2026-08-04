@@ -2,6 +2,10 @@
 
 This project's core value is trustworthy technical data. **No fabricated numbers or claims** — every technical fact must trace back to a real, cited source.
 
+## Required: structure–function analysis
+
+Every entry's `structureFunctionAnalysis` array must explicitly connect a molecular-structure feature to the resulting property (why does *this* structure give *this* emulsification/suspension/skin-feel/pilling behavior?) — not just describe the structure and the property separately. Aim for one point per major performance property. This is general structure-function chemistry reasoning grounded in the same structural facts already in `chemicalStructureSummary`/citations — it doesn't need its own separate citation, but should not introduce new factual claims (numbers, supplier claims) that aren't already sourced elsewhere in the entry.
+
 ## Per-ingredient procedure
 
 1. **Search** for the official manufacturer TDS/product page. Query pattern: `"<INCI name>" OR "<trade name>" technical data sheet`. Major suppliers (Croda, Seppic, BASF, Evonik, Ashland, Clariant, Lubrizol, Dow) have public ingredient-finder tools. **Check both English and Chinese-language supplier sites** — Chinese-domestic suppliers (e.g. Sino Lion) often have more complete data on their Chinese site than their English one.

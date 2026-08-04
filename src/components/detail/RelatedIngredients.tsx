@@ -11,20 +11,20 @@ export function RelatedIngredients({ currentSlug, slugs }: { currentSlug: string
 
   return (
     <section>
-      <h2 className="mb-3 text-lg font-semibold text-navy-950 dark:text-white">{t('sectionRelated')}</h2>
+      <h2 className="mb-3 text-lg font-semibold text-ink-950">{t('sectionRelated')}</h2>
       <div className="flex flex-wrap items-center gap-2">
         {related.map((r) => (
           <Link
             key={r.slug}
             to={`/ingredient/${r.slug}`}
-            className="rounded-full border border-gray-300 px-3 py-1 text-sm text-gray-700 hover:border-accent-500 hover:text-accent-500 dark:border-white/15 dark:text-gray-200"
+            className="rounded-full border border-border bg-surface px-3 py-1 text-sm text-ink-700 hover:border-accent-500 hover:text-accent-500"
           >
             {lang === 'zh' ? r.nameZh : r.inciName}
           </Link>
         ))}
         <Link
           to={`/compare?ids=${query}`}
-          className="ml-2 rounded-full bg-accent-400 px-3 py-1 text-sm font-medium text-navy-950 hover:bg-accent-500"
+          className="ml-2 rounded-full bg-accent-500 px-3 py-1 text-sm font-medium text-white hover:bg-accent-500/90"
         >
           {t('compareCta')}
         </Link>

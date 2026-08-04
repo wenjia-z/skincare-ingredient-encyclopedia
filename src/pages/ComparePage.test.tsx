@@ -13,6 +13,7 @@ function makeIngredient(overrides: Partial<Ingredient>): Ingredient {
     nameZh: '原料甲',
     tradeNames: [{ name: 'Trade A', supplier: 'Supplier A' }],
     chemicalStructureSummary: { zh: '测试', en: 'test' },
+    structureFunctionAnalysis: [{ aspect: { zh: '测试', en: 'test' }, explanation: { zh: '测试', en: 'test' } }],
     performance: {
       skinFeel: { zh: '测试', en: 'test' },
       pillingTendency: 'low',

@@ -14,6 +14,29 @@ export default defineIngredient({
     zh: '由两种橄榄油脂肪酸酯组成的复配体系：鲸蜡硬脂醇橄榄油酸酯（C16-18脂肪醇与橄榄油脂肪酸的酯，亲油性蜡状固体）与失水山梨醇橄榄油酸酯（失水山梨醇与橄榄油脂肪酸的酯，类似Span型的较亲水组分）。两者在水相中共结晶，于油水界面自组装形成层状液晶结构，是一种"仿生"乳化体系，结构上模拟角质层脂质双分子层排列。',
     en: 'A two-component olive-oil fatty acid ester blend: Cetearyl Olivate (an ester of C16-18 fatty alcohol with olive-oil fatty acids — a waxy, lipophilic solid) and Sorbitan Olivate (an ester of sorbitan with olive-oil fatty acids — a more hydrophilic, Span-type component). The two co-crystallize with water at the oil-water interface, self-assembling into a lamellar liquid-crystal structure that biomimetically resembles the lipid bilayer arrangement of the stratum corneum.',
   },
+  structureFunctionAnalysis: [
+    {
+      aspect: { zh: '乳化能力从何而来', en: 'Where the emulsification ability comes from' },
+      explanation: {
+        zh: '两种橄榄油酯的亲油尾链（源自橄榄油脂肪酸，以油酸为主）插入油相，而失水山梨醇/脂肪醇头基留在水相；两组分在界面共排列降低界面张力，同时因分子结构互补（一个偏亲油、一个偏亲水），复配后整体HLB约9，处于中等偏低区间——这正是其能以较低总用量稳定较高比例油相的结构基础。',
+        en: 'The lipophilic tails of both olive-oil esters (mainly oleic-acid derived) insert into the oil phase, while the sorbitan/fatty-alcohol head groups sit in the water phase; the two components co-align at the interface to lower interfacial tension. Because the pair is structurally complementary (one more lipophilic, one more hydrophilic), the blended HLB lands at ~9, a moderate value — the structural basis for stabilizing a fairly high oil-phase fraction at a relatively low total dose.',
+      },
+    },
+    {
+      aspect: { zh: '悬浮/稳定能力从何而来', en: 'Where the suspension/stabilization ability comes from' },
+      explanation: {
+        zh: '鲸蜡硬脂醇橄榄油酸酯（蜡状固体）与水共结晶时会形成层状液晶（凝胶网络）而非简单胶束；这一网络本身具有一定屈服应力，能像"支架"一样物理性地限制油滴的布朗运动和聚并，因此乳化剂本身即兼具增稠/稳定功能，无需额外增稠剂即可获得良好的乳液稳定性。',
+        en: 'When Cetearyl Olivate (a waxy solid) co-crystallizes with water, it forms a lamellar liquid-crystal gel network rather than simple micelles; this network has intrinsic yield stress and physically restrains droplet Brownian motion and coalescence like a scaffold — so the emulsifier itself provides thickening/stabilizing function without a separate thickener.',
+      },
+    },
+    {
+      aspect: { zh: '丰润肤感与搓泥倾向从何而来', en: 'Where the rich skin feel and pilling tendency come from' },
+      explanation: {
+        zh: '层状液晶网络含有较多结合水与蜡质成分，铺展时留下的膜层较厚，因此肤感丰润、滋润度高；但也正因为这层蜡质/液晶膜在皮肤表面残留，若叠加其他成膜性原料（高分子量硅油、部分成膜聚合物），多层膜相互摩擦、卷曲即容易出现"搓泥"现象。',
+        en: 'The lamellar liquid-crystal network holds substantial bound water and waxy material, leaving a thicker residual film on application — hence the rich, moisturizing skin feel. That same residual wax/liquid-crystal film is also why layering with other film-forming ingredients (high-MW silicones, some film-forming polymers) raises pilling risk, as the stacked films abrade and roll up against each other.',
+      },
+    },
+  ],
   hlb: 9,
   appearance: {
     zh: '类白色至象牙色蜡状薄片，熔点约65-75°C',

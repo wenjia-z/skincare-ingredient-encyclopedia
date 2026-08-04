@@ -17,6 +17,29 @@ export default defineIngredient({
     zh: '由甘蓝黑腐病黄单胞菌（Xanthomonas campestris）发酵葡萄糖/蔗糖产生的高分子量杂多糖。主链为β-1,4键连接的葡萄糖单元（结构上与纤维素相同），侧链由甘露糖与葡萄糖醛酸组成并通过氢键、静电作用与疏水缔合紧贴主链排列，使分子整体呈刚性螺旋构象。该刚性螺旋结构在静止/低剪切下形成强的分子间缔合网络（高粘度），受到剪切时螺旋结构沿流场取向、缔合被破坏，粘度大幅下降；剪切停止后又迅速恢复——这是其典型"假塑性/剪切变稀"流变行为的结构根源。',
     en: 'A high-molecular-weight heteropolysaccharide produced by fermenting glucose/sucrose with Xanthomonas campestris. The backbone is β-1,4-linked glucose (structurally identical to cellulose), with mannose/glucuronic-acid side chains that lie close against the backbone via hydrogen bonding, electrostatic, and hydrophobic association, giving the molecule an overall rigid helical conformation. At rest/low shear this rigid helix forms a strong intermolecular associative network (high viscosity); under shear the helices align with flow and the associations break down, sharply reducing viscosity, then recover quickly once shear stops — the structural basis of its characteristic pseudoplastic/shear-thinning rheology.',
   },
+  structureFunctionAnalysis: [
+    {
+      aspect: { zh: '增稠/悬浮能力从何而来', en: 'Where the thickening/suspension ability comes from' },
+      explanation: {
+        zh: '侧链紧贴主链形成的刚性螺旋在静止状态下彼此交叠、缔合，形成跨越整个体系的弱连接网络；这一网络在低剪切/静置下具有可观的屈服应力，足以对抗颗粒物（色素、珠光剂）的重力沉降，因此黄原胶在极低用量（0.1-2%）下即可提供很强的悬浮稳定能力。',
+        en: 'The rigid helices, with side chains held close against the backbone, overlap and associate with each other at rest, forming a weak network that spans the whole system; this network has meaningful yield stress under low shear/at rest — enough to counter gravitational settling of particulates (pigments, pearlizers) — which is why xanthan gum provides strong suspension stability even at very low use levels (0.1-2%).',
+      },
+    },
+    {
+      aspect: { zh: '剪切变稀（涂抹轻盈）从何而来', en: 'Where the shear-thinning (light application feel) comes from' },
+      explanation: {
+        zh: '涂抹动作施加的剪切力使原本无规排列的刚性螺旋沿流动方向取向排列，分子间缔合点被逐一拆散，体系流动阻力骤降、粘度大幅降低，因此涂抹时几乎感受不到"胶感"阻力；一旦停止剪切，螺旋因布朗运动重新无序排列、缔合点重建，粘度又迅速恢复——这一"取向-解缔合-复原"循环正是假塑性行为的分子机制。',
+        en: 'The shear applied during application forces the otherwise randomly oriented rigid helices to align with the flow direction, breaking apart the intermolecular association points one by one; flow resistance drops sharply and viscosity falls, so there is little "gummy" resistance felt on application. Once shear stops, Brownian motion re-randomizes the helices and rebuilds association points, restoring viscosity quickly — this "align → dissociate → recover" cycle is the molecular mechanism behind the pseudoplastic behavior.',
+      },
+    },
+    {
+      aspect: { zh: '宽pH稳定性从何而来', en: 'Where the broad pH stability comes from' },
+      explanation: {
+        zh: '螺旋结构由氢键、静电作用与疏水缔合共同稳定，并非单纯依赖某一可被pH剧烈影响的基团（如羧基电离态），因此在较宽pH范围（约3-12）内螺旋构象与缔合网络都能基本保持完整，粘度受pH变化影响相对较小。',
+        en: "The helical structure is jointly stabilized by hydrogen bonding, electrostatic interaction, and hydrophobic association — not solely dependent on a single group whose ionization state swings sharply with pH (like a carboxyl group) — so the helix conformation and associative network stay largely intact across a wide pH range (~3-12), leaving viscosity relatively insensitive to pH changes.",
+      },
+    },
+  ],
   performance: {
     skinFeel: {
       zh: '高浓度时呈凝胶状粘稠质地；剪切变稀特性使其涂抹展开时阻力小、易铺展，静置后迅速恢复粘稠以支撑悬浮体系',

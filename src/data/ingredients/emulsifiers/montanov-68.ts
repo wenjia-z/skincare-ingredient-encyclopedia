@@ -14,6 +14,29 @@ export default defineIngredient({
     zh: '由鲸蜡硬脂醇（C16-18脂肪醇，结构性/助稳定组分）与鲸蜡硬脂基葡糖苷（同一脂肪醇与葡萄糖缩合而成的糖苷，亲水头基来自糖环而非聚氧乙烯链）复配而成。糖苷型亲水头基使其在水中与脂肪醇共结晶形成层状液晶网络，结构上被描述为"模拟细胞膜脂质双分子层"的液晶促进剂。',
     en: 'A blend of Cetearyl Alcohol (a C16-18 fatty alcohol, providing structure/co-stabilization) and Cetearyl Glucoside (the same fatty alcohol condensed with glucose — a sugar-based, non-ethoxylated hydrophilic head group). The glucoside head group co-crystallizes with the fatty alcohol in water to form a lamellar liquid-crystal network, marketed as biomimicking the lipid bilayer of cell membranes.',
   },
+  structureFunctionAnalysis: [
+    {
+      aspect: { zh: '乳化能力从何而来', en: 'Where the emulsification ability comes from' },
+      explanation: {
+        zh: '鲸蜡硬脂基葡糖苷的疏水尾链（C16-18烷基）锚定于油相，糖环头基（葡萄糖）朝向水相并通过大量氢键强烈水合，界面张力因此显著下降；糖苷头基不含聚氧乙烯链，其亲水性来自糖分子本身的多羟基结构而非链段柔性伸展，赋予其HLB约10、偏中高的水包油乳化能力。',
+        en: "Cetearyl Glucoside's hydrophobic tail (a C16-18 alkyl chain) anchors into the oil phase while the sugar-ring head group (glucose) faces the water phase and hydrates strongly through multiple hydrogen bonds, sharply lowering interfacial tension. Because the glucoside head's hydrophilicity comes from the sugar's multiple hydroxyl groups rather than a flexible ethoxylate chain, it gives a moderately high HLB (~10) O/W emulsification ability.",
+      },
+    },
+    {
+      aspect: { zh: '悬浮/稳定能力从何而来', en: 'Where the suspension/stabilization ability comes from' },
+      explanation: {
+        zh: '鲸蜡硬脂醇与鲸蜡硬脂基葡糖苷共用同一C16-18烷基链，二者在水中共结晶排列成层状液晶（凝胶网络），结构上类似仿生细胞膜脂质双分子层；该网络提供屈服应力，物理性抑制油滴聚并与析水，因此乳化剂本身即具备液晶促进剂式的稳定/增稠功能。',
+        en: 'Cetearyl Alcohol and Cetearyl Glucoside share the same C16-18 alkyl chain, so they co-crystallize in water into a lamellar liquid-crystal gel network structurally similar to a biomimetic cell-membrane lipid bilayer; this network provides yield stress that physically suppresses droplet coalescence and syneresis, giving the emulsifier itself a liquid-crystal-promoter-style stabilizing/thickening function.',
+      },
+    },
+    {
+      aspect: { zh: '柔软丰润肤感从何而来', en: 'Where the soft, rich skin feel comes from' },
+      explanation: {
+        zh: '糖苷头基的多羟基结构本身具有较强保湿性（吸附并锁住水分子），加上液晶网络中结合的大量水分，涂抹后在皮肤表面留下柔软、略带乳脂感的膜层，这也是供应商数据中"长效保湿""降低经皮水分流失"等描述的结构基础。',
+        en: "The glucoside head's multi-hydroxyl structure is itself strongly hygroscopic (binding and holding water molecules), and combined with the water bound inside the liquid-crystal network, it leaves a soft, slightly creamy film on the skin after application — the structural basis for the supplier's \"long-lasting moisturization\" and \"reduced TEWL\" claims.",
+      },
+    },
+  ],
   hlb: 10,
   appearance: { zh: '白色薄片状固体', en: 'white flakes/solid' },
   performance: {

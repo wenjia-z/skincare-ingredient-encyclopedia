@@ -26,7 +26,7 @@ export function HomePage() {
       <div className="flex-1 space-y-6">
         <SearchBar value={query} onChange={setQuery} />
         {results.length === 0 ? (
-          <p className="py-12 text-center text-gray-500 dark:text-gray-400">{t('searchNoResults')}</p>
+          <p className="py-12 text-center text-ink-500">{t('searchNoResults')}</p>
         ) : (
           [...visibleGroups.entries()].map(([letter, items]) => (
             <SectionGroup key={letter} letter={letter} ingredients={items} />

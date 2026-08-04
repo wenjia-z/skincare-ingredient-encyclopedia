@@ -24,10 +24,8 @@ export function ComparePage() {
 
   return (
     <div className="space-y-4">
-      <h1 className="text-xl font-bold text-navy-950 dark:text-white">
-        {group ? L(group.title) : t('sectionComparison')}
-      </h1>
-      {group?.summary && <p className="text-sm text-gray-600 dark:text-gray-300">{L(group.summary)}</p>}
+      <h1 className="text-xl font-bold text-ink-950">{group ? L(group.title) : t('sectionComparison')}</h1>
+      {group?.summary && <p className="text-sm text-ink-700">{L(group.summary)}</p>}
       <ComparisonTable ingredients={ingredients} extraDimensions={group?.extraDimensions} />
     </div>
   )
