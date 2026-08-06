@@ -4,6 +4,7 @@ import { HomePage } from './pages/HomePage'
 import { CategoryPage } from './pages/CategoryPage'
 import { IngredientDetailPage } from './pages/IngredientDetailPage'
 import { ComparePage } from './pages/ComparePage'
+import { AboutDataPage } from './pages/AboutDataPage'
 import { NotFoundPage } from './pages/NotFoundPage'
 
 export function AppRouter() {
@@ -16,6 +17,7 @@ export function AppRouter() {
         <Route path="/ingredient/:slug" element={<IngredientDetailPage />} />
         <Route path="/compare" element={<ComparePage />} />
         <Route path="/compare/:comparisonId" element={<ComparePage />} />
+        <Route path="/about" element={<AboutDataPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </AppShell>

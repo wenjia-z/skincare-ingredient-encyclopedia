@@ -27,6 +27,9 @@ export function Header() {
           <NavLink to="/polymers" className={navLinkClass}>
             {t('navPolymers')}
           </NavLink>
+          <NavLink to="/about" className={navLinkClass}>
+            {t('navAbout')}
+          </NavLink>
         </nav>
         <LanguageToggle />
       </div>
