@@ -8,6 +8,7 @@ export default defineIngredient({
   tradeNames: [
     { name: 'Sodium Polyacrylate', supplier: 'MakingCosmetics' },
     { name: 'RHEOSOL AP', supplier: 'Rheolab' },
+    { name: 'Cosmedia SP', supplier: 'BASF' },
   ],
   chemicalClass: {
     zh: '合成阴离子线性聚丙烯酸盐（非交联，区别于卡波姆类交联丙烯酸聚合物）',
@@ -112,6 +113,14 @@ export default defineIngredient({
       note: 'Used for general polymer chemistry background: pH range (6-9), molecular-weight ranges by application category, water-absorption capacity, and solubility/incompatibility notes (divalent metal ions). This source is a general industrial-chemical supplier, not cosmetics-specific, so its data is used only for general polymer science background, not cosmetic-specific claims.',
     },
     {
+      id: 'basf-cosmediasp-tradename',
+      supplier: 'BASF (via Azelis PC US distributor product page; cross-confirmed by a SpecialChem listing titled "COSMEDIA® SP (Sodium Polyacrylate)")',
+      documentTitle: 'Cosmedia® SP — Product page',
+      url: 'https://www.azelispc-us.com/product/cosmedia-sp/',
+      accessedDate: '2026-08-06',
+      note: "Confirms Cosmedia SP's INCI is 'Sodium Polyacrylate' — i.e. the same ingredient as this entry, added here as a trade name rather than a separate file per the project's dedupe policy. Distributor page also describes it as a neutralized, easy-to-disperse fine powder (pH 5-12) marketed specifically for its emulsifying + suspending + thickening capability without an additional emulsifier (\"emulsifier-free\" formulations) and a silky, velvety, non-tacky afterfeel — a more processing-engineered grade than the plain thickening-focused sodium polyacrylate covered elsewhere in this entry; this functional difference is noted here rather than expanding the full entry, per task scope.",
+    },
+    {
       id: 'knowde-rheosolap-snippet',
       supplier: 'Rheolab (via Knowde/SpecialChem — indexed excerpt)',
       documentTitle: 'RHEOSOL AP — Sodium Polyacrylate homopolymer powder, product listing',
@@ -122,5 +131,5 @@ export default defineIngredient({
   ],
   dataCompleteness: 'partial',
   flaggedFields: ['tradeNames'],
-  lastUpdated: '2026-08-05',
+  lastUpdated: '2026-08-06',
 })

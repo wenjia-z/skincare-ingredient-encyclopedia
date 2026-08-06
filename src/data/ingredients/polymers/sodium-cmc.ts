@@ -8,14 +8,15 @@ export default defineIngredient({
   tradeNames: [
     { name: 'Blanose', supplier: 'Ashland' },
     { name: 'Cellulose Gum CMC', supplier: 'MakingCosmetics' },
+    { name: 'Carbopol BioSense', supplier: 'Lubrizol' },
   ],
   chemicalClass: {
     zh: '阴离子型纤维素醚（羧甲基化纤维素衍生物）',
     en: 'Anionic cellulose ether (carboxymethylated cellulose derivative)',
   },
   chemicalStructureSummary: {
-    zh: '以纤维素为骨架，经碱纤维素与一氯乙酸反应，在脱水葡萄糖单元的羟基上引入羧甲基（-CH2COONa）取代基而成的阴离子水溶性高分子，外观为白色至类白色粉末。典型取代度（DS）约0.7-0.95，即平均每个脱水葡萄糖单元上约有0.7-0.95个羟基被羧甲基取代。中性至弱碱性水中（供应商数据：pH约6.5-8.5），羧甲基解离为带负电的羧酸根，链间静电排斥使分子链伸展、大量结合水分子，形成粘稠溶液；1%水溶液粘度依等级不同可从约1500 cps到5000 mPa·s不等。',
-    en: 'A cellulose-based anionic water-soluble polymer made by reacting alkali-cellulose with monochloroacetic acid to introduce carboxymethyl (-CH2COONa) substituents onto the anhydroglucose hydroxyls, supplied as a white-to-off-white powder. Typical degree of substitution (DS) is ~0.7-0.95, meaning roughly 0.7-0.95 of the hydroxyls per anhydroglucose unit are carboxymethylated. In neutral-to-weakly-alkaline water (supplier data: pH ~6.5-8.5) the carboxymethyl groups ionize to negatively charged carboxylate, and electrostatic repulsion between chains extends the polymer and binds substantial water, producing a viscous solution; 1% solution viscosity ranges roughly from ~1500 cps to 5000 mPa·s depending on grade.',
+    zh: '以纤维素为骨架，经碱纤维素与一氯乙酸反应，在脱水葡萄糖单元的羟基上引入羧甲基（-CH2COONa）取代基而成的阴离子水溶性高分子，外观为白色至类白色粉末。典型取代度（DS）约0.7-0.95，即平均每个脱水葡萄糖单元上约有0.7-0.95个羟基被羧甲基取代。中性至弱碱性水中（供应商数据：pH约6.5-8.5），羧甲基解离为带负电的羧酸根，链间静电排斥使分子链伸展、大量结合水分子，形成粘稠溶液；1%水溶液粘度依等级不同可从约1500 cps到5000 mPa·s不等。Lubrizol旗下Carbopol BioSense是本INCI下一款较新的天然来源等级：其原料为经微纤化处理（microfibrillated cellulose）的纤维素纤维，来自巴西Suzano认证桉树林，供应商标注天然来源成分占比98%，通过COSMOS/ECOCERT认证，并为Carbopol系列首款标注"易生物降解"的流变改性剂——即在归属同一INCI（Cellulose Gum）的前提下，通过原料来源与前处理工艺（微纤化桉树纤维 vs. 常规碱纤维素路线）实现差异化的可持续定位与"类硅弹性体"肤感诉求，供应商称其能替代硅弹性体、带来柔滑而不粘腻的肤感。',
+    en: "A cellulose-based anionic water-soluble polymer made by reacting alkali-cellulose with monochloroacetic acid to introduce carboxymethyl (-CH2COONa) substituents onto the anhydroglucose hydroxyls, supplied as a white-to-off-white powder. Typical degree of substitution (DS) is ~0.7-0.95, meaning roughly 0.7-0.95 of the hydroxyls per anhydroglucose unit are carboxymethylated. In neutral-to-weakly-alkaline water (supplier data: pH ~6.5-8.5) the carboxymethyl groups ionize to negatively charged carboxylate, and electrostatic repulsion between chains extends the polymer and binds substantial water, producing a viscous solution; 1% solution viscosity ranges roughly from ~1500 cps to 5000 mPa·s depending on grade. Lubrizol's Carbopol BioSense is a newer, naturally-derived grade under this same INCI: its feedstock is microfibrillated cellulose fiber sourced from certified eucalyptus forests (Suzano, Brazil), with a supplier-stated 98% natural origin content, COSMOS/ECOCERT certification, and the distinction of being the first Carbopol-line rheology modifier marketed as readily biodegradable. In other words, while it falls under the same INCI (Cellulose Gum), its feedstock and pre-processing route (microfibrillated eucalyptus fiber vs. the conventional alkali-cellulose route) give it a differentiated sustainability positioning and a supplier-claimed \"silicone-elastomer-like\" soft, non-tacky skin feel, marketed as a possible replacement for silicone elastomers.",
   },
   structureFunctionAnalysis: [
     {
@@ -113,8 +114,24 @@ export default defineIngredient({
       accessedDate: '2026-08-05',
       note: "Direct fetch of Ashland's own product page failed (certificate/connection error). Manufacturing process description (alkali cellulose + monochloroacetic acid) and the 99.5%-min-purity personal-care grade detail were taken from the indexed search snippet of this page and not independently confirmed by direct fetch.",
     },
+    {
+      id: 'knowde-carbopol-biosense-tradename',
+      supplier: 'Lubrizol (via Knowde, category listing page)',
+      documentTitle: 'Carbopol® BioSense Polymer, Rheology Modifiers listing (Lubrizol Beauty & Personal Care storefront)',
+      url: 'https://www.knowde.com/stores/lubrizol-life-science/products?category=technologies-cosmetic-ingredients-functionals-rheology-modifiers',
+      accessedDate: '2026-08-06',
+      note: 'Confirms Carbopol BioSense polymer\'s INCI is "Cellulose Gum" — the same INCI already covered by this entry — so it was added here as an additional trade name rather than as a separate ingredient file, per project dedupe policy. Direct fetch of Lubrizol\'s own BioSense product page and the SpecialChem product page both returned HTTP 403; this Knowde category-listing page was fetchable and used instead.',
+    },
+    {
+      id: 'pharmaexcipients-carbopol-biosense-launch',
+      supplier: 'Lubrizol (via Pharma Excipients, trade press)',
+      documentTitle: "Lubrizol's Carbopol® BioSense Polymer Wins Bronze at BSB Innovation Awards",
+      url: 'https://www.pharmaexcipients.com/news/lubrizolscarbopol-biosense/',
+      accessedDate: '2026-08-06',
+      note: 'Used for BioSense-specific composition/sourcing detail (microfibrillated cellulose feedstock, certified eucalyptus source, 98% natural origin, COSMOS/ECOCERT certified, first readily biodegradable Carbopol-line rheology modifier), silicone-elastomer-replacement positioning, and application context (serums, lotions, light creams, 500-15,000 mPa·s emulsions, sun care). Launch/award announced October 2025.',
+    },
   ],
   dataCompleteness: 'partial',
   flaggedFields: ['chemicalStructureSummary'],
-  lastUpdated: '2026-08-05',
+  lastUpdated: '2026-08-06',
 })

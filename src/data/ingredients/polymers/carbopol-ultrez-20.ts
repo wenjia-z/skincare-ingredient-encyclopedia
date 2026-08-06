@@ -5,7 +5,10 @@ export default defineIngredient({
   category: 'polymer',
   inciName: 'Acrylates/C10-30 Alkyl Acrylate Crosspolymer',
   nameZh: '丙烯酸（酯）类/C10-30 烷醇丙烯酸酯交联聚合物',
-  tradeNames: [{ name: 'Carbopol Ultrez 20', supplier: 'Lubrizol' }],
+  tradeNames: [
+    { name: 'Carbopol Ultrez 20', supplier: 'Lubrizol' },
+    { name: 'TEGO® Carbomer 341 ER', supplier: 'Evonik' },
+  ],
   chemicalClass: {
     zh: '疏水改性交联丙烯酸类聚合物（相较于传统卡波姆额外接枝了C10-30长链烷基丙烯酸酯）',
     en: 'Hydrophobically modified crosslinked acrylic polymer (carries an additional C10-30 long-chain alkyl acrylate graft compared with plain Carbomer)',
@@ -108,7 +111,15 @@ export default defineIngredient({
       accessedDate: '2026-08-04',
       note: 'Used for neutralization mechanism/pH, electrolyte-sensitivity explanation, and the "long rheology / short rheology" skin-feel framing. General technical literature, not the primary supplier TDS.',
     },
+    {
+      id: 'evonik-tegocarbomer341er-tds-tradename',
+      supplier: 'Evonik Nutrition & Care GmbH',
+      documentTitle: 'TEGO® Carbomer 341 ER — Technical Information (E 05/08)',
+      url: 'https://glenncorp.com/wp-content/uploads/2013/11/TEGO-Carbomer-341-ER_DS_E0508.pdf',
+      accessedDate: '2026-08-06',
+      note: "Confirms TEGO® Carbomer 341 ER's INCI (PCPC name) is listed as \"Acrylates/C10-30 Alkyl Acrylate Crosspolymer\" — the same INCI as Carbopol Ultrez 20 — so it is recorded here as an additional trade name rather than a separate entry. Also used for appearance (white powder), electrolyte-tolerance comparison vs. plain Carbomer (Fig. 1, viscosity of 1% solution vs. %NaCl at pH 7), pH-response curve (Fig. 2), recommended use level (0.05-1.0%), and guideline formulations (moisturizing body wash, cleansing gel with abrasive, W1/O/W2 multiple emulsion, mild facial cleansing gel). Fetched directly as a PDF (primary source, not gated).",
+    },
   ],
   dataCompleteness: 'partial',
-  lastUpdated: '2026-08-04',
+  lastUpdated: '2026-08-06',
 })

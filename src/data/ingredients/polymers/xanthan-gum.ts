@@ -8,6 +8,7 @@ export default defineIngredient({
   tradeNames: [
     { name: 'Keltrol CG', supplier: 'CP Kelco' },
     { name: 'Xanthan Gum, Prehydrated', supplier: 'MakingCosmetics' },
+    { name: 'Rheocare XGN', supplier: 'BASF (product has since also been rebranded/marketed as Verdessence Xanthan)' },
   ],
   chemicalClass: {
     zh: '发酵法微生物多糖（杂多糖）',
@@ -120,6 +121,14 @@ export default defineIngredient({
       note: 'Used for INCI/CAS confirmation and application category list.',
     },
     {
+      id: 'basf-rheocarexgn-tds',
+      supplier: 'BASF',
+      documentTitle: 'Rheocare® XGN — Technical Information (PRD 30654984, Revision 2.0)',
+      url: 'https://promo.basf.com/campaign/Projetos/CaringForYou/Documentos/Geral/Rheocare%C2%AE%20XGN.pdf',
+      accessedDate: '2026-08-06',
+      note: "Official BASF technical data sheet confirms Rheocare XGN's INCI is exactly 'Xanthan Gum' (CAS 11138-66-2) — i.e. the same ingredient as this entry, added here as a trade name rather than a separate file per the project's dedupe policy. TDS data: appearance (white to slightly yellow powder), viscosity 1300-1700 mPas (Brookfield, 1% xanthan gum in 1% KCl solution), pH 5.5-8.0 (1% in water), pH-stable range 2-12, non-sensitive to electrolytes and high shear rates, vegetable/glucose raw-material basis, no preservatives/antioxidants/solvents present. Use examples: co-stabilizing emulsions (0.1-0.5%) and thickening water-based systems like shower gel/shampoo (up to 1%). The product is also currently marketed by BASF/distributors as 'Verdessence Xanthan' (confirmed via BASF Care Creations and UL Prospector listings), described as 100% renewable-feedstock-based and non-GMO.",
+    },
+    {
       id: 'search-xanthan-rheology-mechanism',
       supplier: 'Published rheology literature (ScienceDirect/ResearchGate, indexed excerpts)',
       documentTitle: 'Xanthan gum helical conformation and shear-thinning behavior (multiple papers)',
@@ -130,5 +139,5 @@ export default defineIngredient({
   ],
   dataCompleteness: 'partial',
   flaggedFields: ['chemicalStructureSummary'],
-  lastUpdated: '2026-08-04',
+  lastUpdated: '2026-08-06',
 })
