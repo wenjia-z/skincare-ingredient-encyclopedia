@@ -1,6 +1,6 @@
 # 护肤原料百科 / Skincare Ingredient Encyclopedia
 
-A bilingual (Chinese / English) technical encyclopedia of cosmetic formulation ingredients, focused on **emulsifiers** and **polymers** used in serum and cream formulation. Combines supplier technical data with structural-chemistry-informed formulation analysis.
+A bilingual (Chinese / English) technical encyclopedia of cosmetic formulation ingredients, focused on **emulsifiers** and **polymers** used across skincare formulation — cleansers, toners, serums, creams, sunscreens, and more. Combines supplier technical data with structural-chemistry-informed formulation analysis.
 
 Live site: https://wenjia-z.github.io/skincare-ingredient-encyclopedia/
 

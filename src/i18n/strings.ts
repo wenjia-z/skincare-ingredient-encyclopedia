@@ -2,8 +2,8 @@
 export const strings = {
   siteTitle: { zh: '护肤原料百科', en: 'Skincare Ingredient Encyclopedia' },
   siteTagline: {
-    zh: '乳化剂与聚合物技术百科，聚焦精华与面霜配方',
-    en: 'Emulsifiers & polymers for serum and cream formulation',
+    zh: '乳化剂与聚合物技术百科，适用于各类护肤品配方',
+    en: 'Emulsifiers & polymers for all types of skincare formulation',
   },
 
   navHome: { zh: '首页', en: 'Home' },
